@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- where we tell the browser how to process the document: -->
+        <!-- what title to put in the browser tab -->
+        <title>Link in Bio</title>
+        <!-- what style sheets to load -->
+        <!-- what language to use -->
+          <!-- we will always use a character set called UTF-8 -->
+          <meta charset="UTF-8">
+          <meta name="author" content="Kevin Calva">
+
+          <style>
+            body {
+              padding-top: 40px;
+              padding-bottom: 40px;
+              background-color: #004643;
+              display: flex;
+              justify-content: center;
+            }
+            .banner-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+    object-fit: cover;
+  }
+
+  .thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+.name {
+  color: #fffffe;
+  display:flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #f9bc60;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.link a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+          </style>
+  </head>
+  
+  <body>
+    <!-- content displayed to user (i.e. the stuff from the code block above) -->
+    <div class="items">
+      <div class="banner">
+        <img src="profile-pic.jpg" alt="random headshot" class="banner-image">
+      </div>
+  
+      <div class="name">
+        Raghu Betina
+      </div>
+  
+      <div class="social-icons">
+        <a href="https://github.com/raghubetina" target="_blank">
+          GitHub
+        </a>
+  
+        <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
+          LinkedIn
+        </a>
+  
+        <a href="https://www.instagram.com/raghubetina/" target="_blank">
+          Instagram
+        </a>
+  
+        <a href="https://twitter.com/raghubetina" target="_blank">
+          Twitter
+        </a>
+      </div>
+  
+      <div class="link">
+        <img
+          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" class="thumbnail">
+  
+        <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
+          — Paul Graham</a>
+      </div>
+  
+      <div class="link">
+        <img src="/thumbnails/typography.jpg" class="thumbnail">
+  
+        <a target="_blank"
+          href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
+          Butterick</a>
+      </div>
+  
+      <div class="link">
+        <img
+          src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
+  
+        <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
+          Life-Saving Checklist — The New Yorker</a>
+      </div>
+    </div>
+   
+
+    <!-- Etc, for as many links as you want -->
+  </body>
+</html>
